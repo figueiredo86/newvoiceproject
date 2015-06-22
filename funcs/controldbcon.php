@@ -1,3 +1,5 @@
 <?php
- require("../ini/config.ini");
+ include_once("../ini/config.ini.php");
+ #print "$db[username]";
+ 
 ?>
