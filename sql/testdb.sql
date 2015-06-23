@@ -10,3 +10,10 @@ senha varchar(100) not null,
 primary key (id),
 unique(numero)
 );
+
+insert into ramal values (
+'',
+200,
+'Felipe',
+'felipe'
+);
