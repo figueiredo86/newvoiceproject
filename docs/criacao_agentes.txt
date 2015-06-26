@@ -1,0 +1,11 @@
+Este documento visa esclarecer o processo de criação - individual ou em massa de agentes.
+
+Tabela do banco de dados:
+create table t_agentes (
+ id int(10) not null auto_increment,
+ agent_num varchar(5) not null,
+ agent_name varchar(100) not null,
+ skill_id int(10) not null,
+ primary key (id),
+ unique 
+);
