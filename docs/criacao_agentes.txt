@@ -1,11 +1,21 @@
 Este documento visa esclarecer o processo de criação - individual ou em massa de agentes.
 
-Tabela do banco de dados:
+Tabela do banco de dados (inserir script no diretório sql):
 create table t_agentes (
  id int(10) not null auto_increment,
  agent_num varchar(5) not null,
  agent_name varchar(100) not null,
  skill_id int(10) not null,
+ enable boolean(0) default '0,'
  primary key (id),
- unique 
+ unique(agent_num)
 );
+
+Tabela básica de criação de agente. Descrição dos campos:
+id -> identificação única do agente
+agent_num -> número que agente irá usar para se logar
+agent_name -> nome do agente
+skill_id -> chave estrangeira (
+cada skill terá o seu id [pt (1) ing(2) e esp(3). O valor do id será a junção dos skills - pt(1) esp(2) ing(3). Apenas pt (10), pt + esp (12) pt + ing(3) esp + ing (23), apenas esp (20) e apenas ing(30) 
+)
+enable -> indica se o agente está habilitado ou não (na hora da criação do agente o valor é alterado para 1)
