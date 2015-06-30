@@ -1,0 +1,9 @@
+1 - Planta da operação
+  - Um tipo de visualização em tempo real da operação. Um desenho da planta do andar, indicando o nome da 'ilha', do nome e o 
+  status do agente. Definir possibiliadde de alertas em caso de falha de monitoramento
+  
+  
+2 - Configuração deo callback
+  - Possibilidade de agendamento de retorno aos clientes que abandonaram enquanto estavam na fila. 
+  De acordo com o tempo de desligamento, é possívle gerar dados de 'abandono' ( > X segundos) ou 'desistências  < X segundos).
+  
