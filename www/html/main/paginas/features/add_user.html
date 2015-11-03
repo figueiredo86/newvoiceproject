@@ -1,5 +1,5 @@
 <html>
-	<form action="../php/php_controle.php">
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 		Nome de Usuario:
 		<input type"text" name="username">
 		<span class="error">* 
