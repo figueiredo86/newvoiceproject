@@ -1,0 +1,17 @@
+<html>
+	<form action="../php/php_controle.php">
+		Nome de Usuario:<br>
+		<input type"text" name="username">
+		<span class="error">* 
+			<?php echo $username_error;?>		
+		</span>
+
+		Senha de Usuario:<br>
+		<input type="text" name="secret">
+		<span class="error">* 
+			<?php echo $secret_error;?>		
+		</span>
+
+		<input type="submit" value="Submit">
+	</form>
+</html>
