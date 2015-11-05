@@ -18,4 +18,16 @@ function runquery($statement) {
  		printf("Nome: %s",$rows[0]);
  	}   
 }
+
+function db_lista,cli($statement) {
+	conecta();
+	$run = mysql_query("$statement");
+ 	if (!$run) {
+  		die('Nao foi possivel realizar a query');
+ 	}
+
+	 while ($rows = mysql_fetch_array($run,MYSQL_BOTH)) {
+ 		printf("Cliente: %s",$rows[0]);
+ 	}   
+}
 ?>
