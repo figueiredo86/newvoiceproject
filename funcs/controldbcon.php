@@ -28,6 +28,7 @@ function db_lista,cli($statement) {
 
 	 while ($rows = mysql_fetch_array($run,MYSQL_BOTH)) {
  		printf("Cliente: %s",$rows[0]);
+		return $rows;
  	}   
 }
 ?>

@@ -5,4 +5,5 @@
 	</html>
 
 	$query = "select nome from cliente where status_cli = 1";
+	echo $rows;
 ?>
