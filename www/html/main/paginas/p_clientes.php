@@ -1,8 +1,10 @@
 <php
-<html>
-<title>Lista de clientes</title>
-<body>
-echo "Estou na página";
-</body>
-</html>
+
+	<html>
+	<head><title>Lista de clientes</title></head>
+	</html>
+
+
+	require ''
+
 ?>
