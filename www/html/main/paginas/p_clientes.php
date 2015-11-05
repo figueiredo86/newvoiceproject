@@ -4,6 +4,6 @@
 	<body>Lista de cliente ativos da NVT</body>
 	</html>
 
-	$query = "select nome from cliente where status_cli = 1";
-	echo $rows;
+	print "Esse cliente...";
+
 ?>
