@@ -6,15 +6,16 @@ create table cliente (
 	id int(10) not null auto_increment,
 	nome varchar(50) not null,
 	telefone char(11) not null,
-	status_cli int(1) not null,
+	status_cli boolean not null default "1",
 	primary key (id)
 );
 
 drop table if exists status_cli;
 
 create table status_cli (
-	id_cli int(1) not null,
-	status boolean default "1"
+	id_cli int(10) not null,
+	status boolean not null default "1",
+	primary key(id_cli)
 );
 
 

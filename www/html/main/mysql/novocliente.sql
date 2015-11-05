@@ -6,3 +6,8 @@ insert into cliente values (
 '1133330000',
 ''
 );
+
+insert into status_cli values (
+'',
+''
+);
