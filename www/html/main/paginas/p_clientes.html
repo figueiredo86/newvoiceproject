@@ -1,8 +1,12 @@
 <html>
 <title>Lista de clientes</title>
 <body>
-<php
-echo "Estou na página";
-?>
+Lista de cliente ativos da NVT
+
+
+	<php
+		$query = "select nome from cliente where status_cli = 1";
+		echo $rows;
+	?>
 </body>
 </html>
